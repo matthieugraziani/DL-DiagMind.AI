@@ -75,7 +75,7 @@ streamlit run app.py
 
 ### 5.Apercu de l'appli
 
-![Aperçu de l'application](assets/screenshot.png)
+![Aperçu de l'application](images/screenshot.png)
 
 ---
 
