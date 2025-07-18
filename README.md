@@ -33,9 +33,11 @@ Grâce à l’intelligence artificielle, à la vision par ordinateur et à des m
 
 ```bash
 .
-├── assets/               # Images
+├── images/               # Images
 ├── models/               # Modèles entrainés
-├── Notebooks/            # Analyses exploratoires et entraînement
+├── styles/               # CSS de l'appplication Streamlit  
+├── EDA.ipynb             # Analyse Exploratoire des Données          
+├── DiagMind_AI.ipynb     # Notebook du DL
 ├── app.py                # Application Streamlit
 ├── README.md             # Ce fichier
 └── requirements.txt      # Dépendances Python
@@ -48,7 +50,7 @@ Grâce à l’intelligence artificielle, à la vision par ordinateur et à des m
 ### 1. Clonez le dépôt :
 
 ```bash
-git clone git@github.com:matthieugraziani/Deep-Learning.git
+gh repo clone matthieugraziani/Deep-Learning
 cd Deep-Learning
 ```
 
@@ -78,10 +80,9 @@ streamlit run app.py
 ---
 
 ## ✅ À faire
-
-* [ ] Intégration avec PACS
-* [ ] Prise en charge des DICOM
+* [ ] Grad-Cam 
 * [ ] Export PDF du rapport médical
+* [ ] Prise en charge des  fichiers DICOM
 * [ ] Validation clinique avec un radiologue
 
 ---
